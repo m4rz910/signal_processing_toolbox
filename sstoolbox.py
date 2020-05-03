@@ -498,3 +498,4 @@ class SignalTB:
         ms = 1/len(x) * x.apply(lambda x: x**2).sum() #what are the units of this? I made this up
         pref = 20 # micropasc
         return 10*np.log10(ms/(pref**2))
+    
